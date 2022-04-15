@@ -20,8 +20,14 @@ class User {
   }
 }
 
-const user = new User("sasaki");
-console.log(user.sayHello());
-user.fetch().then((result) => {
+const user1 = new User("sasaki");
+const user2 = new User("sasasaki");
+console.log(user1.sayHello());
+user1.fetch().then((result) => {
   console.log(result);
 });
+const r = Promise.allSettled(user1.fetch(), user2.fetch())
+r.then((u1, u2) => {
+  console.log(u1)
+  console.log(u2)
+})
