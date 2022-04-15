@@ -4,5 +4,10 @@
   "main": "index.js",
   "author": "Asato Wakisaka <asato.wakisaka@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11"
+  }
 }
