@@ -1,5 +1,7 @@
 "use strict";
 
+// https://zenn.dev/sa2knight/articles/67f6f5cc4ed5e26e391c
+
 class User {
   constructor(name) {
     this.name = name;
