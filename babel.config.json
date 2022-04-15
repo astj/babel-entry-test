@@ -4,7 +4,11 @@
       "@babel/preset-env",
       {
         "useBuiltIns": "entry",
-        "corejs": "3.22"
+        "corejs": {
+          "version": "3.22",
+          "proposals": true
+        },
+        "shippedProposals": true
       }
     ]
   ]

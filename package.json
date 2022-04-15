@@ -15,6 +15,6 @@
     "core-js": "3"
   },
   "browserslist": [
-    "ios >= 14"
+    "ios >= 12"
   ]
 }
