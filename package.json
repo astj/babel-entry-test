@@ -1,0 +1,8 @@
+{
+  "name": "babel-entry-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Asato Wakisaka <asato.wakisaka@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
