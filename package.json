@@ -5,9 +5,13 @@
   "author": "Asato Wakisaka <asato.wakisaka@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "babel src -d dist"
+  },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.9",
-    "@babel/preset-env": "^7.16.11"
+    "@babel/preset-env": "^7.16.11",
+    "core-js": "3"
   }
 }
