@@ -13,5 +13,8 @@
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
     "core-js": "3"
-  }
+  },
+  "browserslist": [
+    "> 2%"
+  ]
 }
