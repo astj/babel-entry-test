@@ -1,3 +1,5 @@
+import 'core-js/stable/promise/all-settled'
+
 "use strict";
 
 // original: https://zenn.dev/sa2knight/articles/67f6f5cc4ed5e26e391c
